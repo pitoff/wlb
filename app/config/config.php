@@ -9,7 +9,7 @@
 	define('APPROOT', dirname(dirname(__FILE__)));
 
 	//url root
-	define('URLROOT', 'http://wlb.com');
+	define('URLROOT', 'www.wespac-linksb.com');
 
 	//site name
 	define('SITENAME', 'wespac-links bank');
