@@ -78,7 +78,8 @@
 			  	<div class="col-lg-8 col-lg-offset-2">
  			  		<div class="details well well-sm">
 			  			<p>Account Number: <span class="detailstyle"><?php echo $data['user']->acc_num;?></span></p>
-			  			<p>Account Status: <span class="detailstyle">Restricted</span></p>
+			  			<p>Account Type: <span class="detailstyle">Current</span></p>
+						<p>Account Status: <span class="detailstyle">Restricted</span></p>
 			  		</div>
 			  	</div>
 			  </div>			  
