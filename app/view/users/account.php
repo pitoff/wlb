@@ -29,6 +29,8 @@
                               <p><span class="detailstyle">Current Balance: &#36;<?php echo number_format($all->current_bal, 2);?></span></p>
                               <p><span class="detailstyle">Available Balance: &#36;<?php echo number_format($all->available_bal, 2);?></span></p>
                               <p><span class="detailstyle">Last transaction: <?php echo $all->dod;?></span></p>
+			      <?php $money = 2300;?>
+                              <p><span class="detailstyle">Last transaction status: &#36;<?php echo number_format($money, 2);?> failed due to account restrictions.</span></p>      
                               </div>
                           <?php endif;?>
                           	<?php endforeach;?>
